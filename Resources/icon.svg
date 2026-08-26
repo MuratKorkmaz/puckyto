@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <title>Puckyto</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2B313B"/>
+      <stop offset="0.55" stop-color="#1A1E25"/>
+      <stop offset="1" stop-color="#0D1014"/>
+    </linearGradient>
+    <linearGradient id="fur" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#121519"/>
+      <stop offset="1" stop-color="#040506"/>
+    </linearGradient>
+    <radialGradient id="eyeGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#4ADE80" stop-opacity="0.55"/>
+      <stop offset="0.55" stop-color="#4ADE80" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#4ADE80" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="iris" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8BF0AE"/>
+      <stop offset="0.5" stop-color="#4ADE80"/>
+      <stop offset="1" stop-color="#22B45E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- rounded app tile -->
+  <rect x="52" y="52" width="920" height="920" rx="206" fill="url(#bg)"/>
+  <rect x="52" y="52" width="920" height="920" rx="206" fill="none"
+        stroke="#3A424F" stroke-opacity="0.55" stroke-width="4"/>
+
+  <!-- terminal prompt mark, tucked under the cat -->
+  <g stroke="#4ADE80" stroke-opacity="0.30" stroke-width="26"
+     stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M 352 872 L 424 916 L 352 960"/>
+  </g>
+  <rect x="464" y="898" width="150" height="26" rx="13" fill="#4ADE80" fill-opacity="0.30"/>
+
+  <!-- ears -->
+  <path d="M 268 236 L 452 372 L 236 470 Z" fill="url(#fur)"/>
+  <path d="M 756 236 L 572 372 L 788 470 Z" fill="url(#fur)"/>
+  <path d="M 306 316 L 404 388 L 292 440 Z" fill="#2E3742" fill-opacity="0.85"/>
+  <path d="M 718 316 L 620 388 L 732 440 Z" fill="#2E3742" fill-opacity="0.85"/>
+
+  <!-- head -->
+  <ellipse cx="512" cy="588" rx="278" ry="243" fill="url(#fur)"/>
+
+  <!-- eye glow -->
+  <circle cx="404" cy="566" r="122" fill="url(#eyeGlow)"/>
+  <circle cx="620" cy="566" r="122" fill="url(#eyeGlow)"/>
+
+  <!-- eyes: almond shape with a vertical slit pupil -->
+  <g>
+    <path d="M 404 512 Q 470 566 404 620 Q 338 566 404 512 Z" fill="url(#iris)"/>
+    <ellipse cx="404" cy="566" rx="13" ry="40" fill="#05070A"/>
+    <circle cx="392" cy="540" r="10" fill="#FFFFFF" fill-opacity="0.75"/>
+
+    <path d="M 620 512 Q 686 566 620 620 Q 554 566 620 512 Z" fill="url(#iris)"/>
+    <ellipse cx="620" cy="566" rx="13" ry="40" fill="#05070A"/>
+    <circle cx="608" cy="540" r="10" fill="#FFFFFF" fill-opacity="0.75"/>
+  </g>
+
+  <!-- nose -->
+  <path d="M 512 664 L 542 690 Q 512 716 482 690 Z" fill="#39414D"/>
+
+  <!-- whiskers -->
+  <g stroke="#39414D" stroke-width="9" stroke-linecap="round" stroke-opacity="0.9">
+    <path d="M 452 690 L 236 654"/>
+    <path d="M 450 714 L 224 726"/>
+    <path d="M 456 738 L 244 796"/>
+    <path d="M 572 690 L 788 654"/>
+    <path d="M 574 714 L 800 726"/>
+    <path d="M 568 738 L 780 796"/>
+  </g>
+</svg>
