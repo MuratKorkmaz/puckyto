@@ -4,6 +4,8 @@
 
 **AI kodlama ajanların için bir kontrol kulesi.**
 
+![Puckyto](docs/images/demo.gif)
+
 Puckyto, birden fazla terminali yan yana çalıştıran ve her birinin içindeki AI ajanını
 (Claude / ChatGPT / Gemini) birinci sınıf bir varlık olarak ele alan yerel bir macOS uygulaması:
 ajanın adı, görevi, kural seti ve yeniden başlatmalara dayanan bir hafızası var. Etraflarında ise üç

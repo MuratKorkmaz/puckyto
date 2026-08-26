@@ -4,6 +4,8 @@
 
 **A mission control for your AI coding agents.**
 
+![Puckyto](docs/images/demo.gif)
+
 Puckyto is a native macOS app that runs several terminals side by side and treats the AI agent inside
 each one (Claude / ChatGPT / Gemini) as a first-class citizen: it has a name, a task, a rule set and a
 memory that survives restarts. Around them sit the things you actually need when three agents are
